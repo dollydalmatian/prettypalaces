@@ -5,6 +5,1244 @@
     margin: 5px auto 0px auto;
 }
 
-body { 
-	background-color: #000;
+
+.cats_tvsd {
+    width: 36px;
+    height: 36px;
+    background: url("images/TvSD.png") center center no-repeat;
 }
+
+.cats_tvhd {
+    width: 36px;
+    height: 36px;
+    background: url("images/TvHD.png") center center no-repeat;
+}
+
+.cats_tvuhd {
+    width: 36px;
+    height: 36px;
+    background: url("images/TvUHD.png") center center no-repeat;
+}
+
+.cats_tvdvdrip {
+    width: 36px;
+    height: 36px;
+    background: url("images/TvDVDRip.png") center center no-repeat;
+}
+
+.cats_tvpacksd {
+    width: 36px;
+    height: 36px;
+    background: url("images/TvPackSD.png") center center no-repeat;
+}
+
+.cats_tvpackhd {
+    width: 36px;
+    height: 36px;
+    background: url("images/TvPackHD.png") center center no-repeat;
+}
+
+.cats_tvpackuhd {
+    width: 36px;
+    height: 36px;
+    background: url("images/TvPackUHD.png") center center no-repeat;
+}
+
+.cats_moviesd {
+    width: 36px;
+    height: 36px;
+    background: url("images/MovieSD.png") center center no-repeat;
+}
+
+.cats_moviehd {
+    width: 36px;
+    height: 36px;
+    background: url("images/MovieHD.png") center center no-repeat;
+}
+
+.cats_movieuhd {
+    width: 36px;
+    height: 36px;
+    background: url("images/MovieUHD.png") center center no-repeat;
+}
+
+.cats_moviepacksd {
+    width: 36px;
+    height: 36px;
+    background: url("images/MoviePackSD.png") center center no-repeat;
+}
+
+.cats_moviepackhd {
+    width: 36px;
+    height: 36px;
+    background: url("images/MoviePackHD.png") center center no-repeat;
+}
+
+.cats_moviepackuhd {
+    width: 36px;
+    height: 36px;
+    background: url("images/MoviePackUHD.png") center center no-repeat;
+}
+
+.cats_moviexxx {
+    width: 36px;
+    height: 36px;
+    background: url("images/MovieXXX.png") center center no-repeat;
+}
+
+.cats_bluray {
+    width: 36px;
+    height: 36px;
+    background: url("images/Bluray.png") center center no-repeat;
+}
+
+.cats_animesd {
+    width: 36px;
+    height: 36px;
+    background: url("images/AnimeSD.png") center center no-repeat;
+}
+
+.cats_animehd {
+    width: 36px;
+    height: 36px;
+    background: url("images/AnimeHD.png") center center no-repeat;
+}
+
+.cats_gamespc {
+    width: 36px;
+    height: 36px;
+    background: url("images/GamesPC.png") center center no-repeat;
+}
+
+.cats_gamesxbox {
+    width: 36px;
+    height: 36px;
+    background: url("images/GamesxBox.png") center center no-repeat;
+}
+
+.cats_gamesps {
+    width: 36px;
+    height: 36px;
+    background: url("images/GamesPS.png") center center no-repeat;
+}
+
+.cats_gamesnin {
+    width: 36px;
+    height: 36px;
+    background: url("images/GamesNin.png") center center no-repeat;
+}
+
+.cats_appswindows {
+    width: 36px;
+    height: 36px;
+    background: url("images/AppsWindows.png") center center no-repeat;
+}
+
+.cats_appsmac {
+    width: 36px;
+    height: 36px;
+    background: url("images/AppsMAC.png") center center no-repeat;
+}
+
+.cats_appslinux {
+    width: 36px;
+    height: 36px;
+    background: url("images/AppsLinux.png") center center no-repeat;
+}
+
+.cats_appsmobile {
+    width: 36px;
+    height: 36px;
+    background: url("images/AppsMobile.png") center center no-repeat;
+}
+
+.cats_0dayxxx {
+    width: 36px;
+    height: 36px;
+    background: url("images/0dayXXX.png") center center no-repeat;
+}
+
+.cats_ebook {
+    width: 36px;
+    height: 36px;
+    background: url("images/eBook.png") center center no-repeat;
+}
+
+.cats_audiobook {
+    width: 36px;
+    height: 36px;
+    background: url("images/AudioBook.png") center center no-repeat;
+}
+
+.cats_music {
+    width: 36px;
+    height: 36px;
+    background: url("images/Music.png") center center no-repeat;
+}
+
+.cats_misc {
+    width: 36px;
+    height: 36px;
+    background: url("images/Misc.png") center center no-repeat;
+}
+
+* {
+    padding: 0em;
+    margin: 0em;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: tahoma, helvetica, sans-serif;
+    font-size: 8pt;
+    color: rgb(153, 153, 153);
+    min-width: 850px;
+    background-color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    border: medium;
+    color: rgb(204, 204, 204);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(170, 170, 170);
+}
+
+a.similar_artist {
+    background-color: rgb(68, 68, 68);
+    display: block;
+    padding: 1px 4px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+a.similar_artist:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+.similar_artist_header {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 3px 5px;
+}
+
+h1, h2, h3, h4 {
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    font-size: 8pt;
+}
+
+p {
+    margin: 10px 5px;
+}
+
+li {
+    margin: 5px 15px;
+}
+
+input {
+    padding: 2px 3px;
+}
+
+textarea {
+    padding: 2px 3px;
+}
+
+img {
+    border: medium;
+}
+
+.r00 {
+    color: rgb(255, 0, 0);
+}
+
+.r01 {
+    color: rgb(255, 19, 0);
+}
+
+.r02 {
+    color: rgb(255, 19, 0);
+}
+
+.r03 {
+    color: rgb(255, 38, 0);
+}
+
+.r04 {
+    color: rgb(255, 76, 0);
+}
+
+.r05 {
+    color: rgb(255, 94, 0);
+}
+
+.r06 {
+    color: rgb(255, 94, 0);
+}
+
+.r07 {
+    color: rgb(255, 113, 0);
+}
+
+.r08 {
+    color: rgb(255, 151, 0);
+}
+
+.r09 {
+    color: rgb(255, 170, 0);
+}
+
+.r10 {
+    color: rgb(116, 196, 46);
+}
+
+.r20 {
+    color: rgb(65, 139, 0);
+}
+
+.r50 {
+    color: rgb(65, 139, 0);
+}
+
+.r99 {
+    color: rgb(65, 139, 0);
+}
+
+span.size1 {
+    font-size: 0.75em;
+}
+
+span.size2 {
+    font-size: 1em;
+}
+
+span.size3 {
+    font-size: 1.25em;
+}
+
+span.size4 {
+    font-size: 1.5em;
+}
+
+span.size5 {
+    font-size: 1.75em;
+}
+
+span.size6 {
+    font-size: 2em;
+}
+
+span.size7 {
+    font-size: 2.25em;
+}
+
+span.size8 {
+    font-size: 2.5em;
+}
+
+span.size9 {
+    font-size: 2.75em;
+}
+
+span.size10 {
+    font-size: 3em;
+}
+
+ul.thin {
+    margin: 0px 0px 0px 25px;
+    padding: 0px;
+}
+
+ul.thin li {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    width: 100%;
+    padding: 0px;
+}
+
+#content {
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+    top: 60px;
+    min-width: 850px;
+}
+
+#wrapper {
+    width: 90%;
+    margin: 0px auto;
+}
+
+#footer {
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0px;
+    color: rgb(255, 255, 255);
+}
+
+
+#logo a {
+    border: medium;
+    width: 396px;
+    height: 90px;
+    display: block;
+}
+
+#logo a:hover {
+    border: medium;
+}
+
+#menu {
+    position: absolute;
+    top: 125px;
+    width: 90%;
+    padding: 0.6em 0px;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    font-size: 10pt;
+    min-width: 850px;
+}
+
+#menu ul li {
+    position: relative;
+    display: inline;
+    background-color: rgb(69, 69, 69);
+    padding: 6px 0px;
+    margin: 0px;
+}
+
+#index #nav_index, #torrents #nav_torrents, #requests #nav_requests, #forums #nav_forums, #top10 #nav_top10, #rules #nav_rules, #wiki #nav_wiki, #staff #nav_staff, #collage #nav_collages, #chat #nav_irc {
+    background-color: rgb(48, 48, 48);
+}
+
+#menu ul li a {
+    padding: 0.6em 2%;
+    color: rgb(255, 255, 255);
+}
+
+#menu ul li a:hover {
+    background-color: rgb(48, 48, 48);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#donation-outer {
+    position: absolute;
+    top: 60px;
+    right: 7.5%;
+    background: 0% 0% repeat rgb(48, 48, 48);
+    height: 15px;
+    width: 150px;
+    padding: 3px;
+}
+
+#donation-inner {
+    background: 0% 0% repeat rgb(138, 8, 41);
+    height: 100%;
+}
+
+#donation-link {
+    position: absolute;
+    top: 60px;
+    right: 7.5%;
+    height: 15px;
+    width: 150px;
+    padding: 3px;
+    text-align: center;
+    font-size: 8pt;
+    text-shadow: rgb(0, 0, 0) -1px -1px 0px, rgb(0, 0, 0) 1px -1px 0px, rgb(0, 0, 0) -1px 1px 0px, rgb(0, 0, 0) 1px 1px 0px;
+}
+
+#userinfo {
+    background: rgb(28, 28, 28);
+    color: rgb(119, 119, 119);
+    width: 100%;
+    text-align: center;
+    font-size: 8pt;
+    padding: 3px 0px;
+    z-index: 10;
+    min-width: 850px;
+}
+
+#userinfo img {
+}
+
+#userinfo ul {
+    display: inline;
+    margin: 0px 0.8%;
+    padding: 4px;
+}
+
+#userinfo ul li {
+    position: relative;
+    display: inline;
+    margin: 0px 0.1em;
+    line-height: 20px;
+    vertical-align: middle;
+    padding: 2px;
+}
+
+#userinfo a {
+    color: rgb(119, 119, 119);
+}
+
+#userinfo a:hover {
+    text-decoration: underline;
+}
+
+#userinfo b a {
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+#userinfo span.stat {
+    color: rgb(170, 170, 170);
+}
+
+#userinfo_username {
+    position: absolute;
+    top: 10px;
+    left: 5%;
+}
+
+#userinfo_major {
+    position: absolute;
+    top: 10px;
+    right: 5%;
+}
+
+#searchbars {
+    position: absolute;
+    top: 155px;
+    width: 90%;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    padding: 4px 0px;
+    min-width: 850px;
+}
+
+#searchbars input {
+    position: relative;
+    padding: 3px 3px 3px 5px;
+    font-size: 0.9em;
+    background-color: rgb(34, 34, 34);
+    color: rgb(204, 204, 204);
+    border: 1px solid rgb(48, 48, 48);
+}
+
+#searchbars ul {
+    margin: 0px auto;
+    display: block;
+}
+
+#searchbars ul li {
+    display: inline;
+    margin: 0px 1px;
+    list-style: none;
+    position: relative;
+}
+
+#searchbars ul li ul {
+    display: block;
+    position: absolute;
+    top: 1em;
+    left: 0px;
+    z-index: 1000;
+    width: 12em;
+    margin-top: 12px;
+}
+
+#searchbars ul li ul li {
+    display: block;
+    width: 100%;
+    background: rgb(48, 48, 48);
+}
+
+#searchbars ul li ul li.highlight {
+    background: rgb(69, 69, 69);
+}
+
+#searchbars ul li form {
+    display: inline;
+}
+
+#alerts {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: -60px;
+    padding: 10px 0px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    min-width: 850px;
+}
+
+#alerts a {
+    color: rgb(204, 204, 204);
+}
+
+.alertbar.blend {
+    background-color: rgb(34, 34, 34);
+    border: 1px solid rgb(48, 48, 48);
+}
+
+#cat-selector ul {
+    width: 100%;
+}
+
+#cat-selector ul li {
+    display: inline;
+    width: 12em;
+    height: 1em;
+    float: left;
+}
+
+.alertbar {
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    color: rgb(204, 204, 204);
+    font-weight: bold;
+    font-size: 0.95em;
+    width: 350px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.alertbar a {
+    color: rgb(85, 85, 85);
+    text-decoration: underline;
+}
+
+.alertbar a:hover {
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+}
+
+.hidden {
+    position: absolute;
+    left: -10000px;
+}
+
+input.hidden {
+    position: absolute;
+    display: none;
+}
+
+.thin {
+    width: 850px;
+    margin: 0px auto;
+}
+
+.widethin {
+    margin: 0px auto;
+    width: 95% !important;
+}
+
+#userinfo_major .brackets::before {
+    font-weight: bold;
+}
+
+#userinfo_major .brackets::after {
+    font-weight: bold;
+}
+
+div.linkbox {
+    text-align: center;
+    padding: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.min_padding {
+    padding: 0px;
+    margin: 0px;
+}
+
+p.min_padding {
+    margin: 2px 0px;
+}
+
+.pad {
+    padding: 1em;
+}
+
+.sidebar .pad {
+    padding: 4px;
+}
+
+#index .sidebar .pad {
+    padding: 9px;
+}
+
+.vertical_space {
+    margin-bottom: 10px;
+}
+
+.box {
+    font-size: 8pt;
+    background-color: rgb(40, 40, 40);
+    border: 1px solid rgb(48, 48, 48);
+}
+
+.box2 {
+    font-size: 8pt;
+    background-color: rgb(40, 40, 40);
+    border: 1px solid rgb(48, 48, 48);
+    margin-bottom: 10px;
+}
+
+.box_seedbox {
+    font-size: 8pt;
+    background-color: rgb(61, 61, 61);
+    border: 1px solid rgb(48, 48, 48);
+}
+
+.box_renew {
+    font-size: 8pt;
+    background-color: rgb(178, 128, 178);
+    border: 1px solid rgb(48, 48, 48);
+}
+
+.renew_methods {
+    border: 3px solid rgb(61, 61, 61);
+    border-radius: 6px;
+    margin-top: 8px;
+    height: 52px;
+}
+
+.renew_methods h1 {
+    text-align: center;
+    margin-top: -12px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10pt;
+    color: rgb(255, 255, 255);
+}
+
+.renew_methods h1 span {
+    background-color: rgb(40, 40, 40);
+}
+
+.renew_options {
+    margin-top: -8px;
+}
+
+.pad h3, .pad h4, .padbox h3, .padbox h4 {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.sidebar {
+    float: right;
+    width: 250px;
+    height: 100%;
+}
+
+.sidebar .box {
+    margin: 0px 5px 10px;
+}
+
+.head {
+    padding: 4px;
+    border-bottom: 1px solid rgb(48, 48, 48);
+    background: rgb(18, 18, 18);
+    color: white;
+}
+
+.body {
+    padding: 3px 10px 10px;
+}
+
+.main_column {
+    margin: 0px 255px 10px 0px;
+    width: 590px;
+}
+
+.main_column .box, .main_column table {
+    margin-bottom: 10px;
+}
+
+.tags {
+    padding: 0px 0px 0px 20px;
+    font-style: italic;
+}
+
+.tags a {
+    color: rgb(126, 126, 126);
+}
+
+.tags a:hover {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+}
+
+.noborder {
+    border: medium;
+}
+
+ul.nobullet {
+    list-style-type: none;
+}
+
+div.hr {
+    padding-top: 1px;
+    padding-bottom: 6px;
+}
+
+hr.perms {
+    height: 1px;
+    border-width: 0px;
+    color: rgb(113, 198, 255);
+    background-color: rgb(113, 198, 255);
+    width: 96%;
+    margin: 0px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(48, 48, 48);
+}
+
+tr {
+    border: 1px solid rgb(48, 48, 48);
+    background-color: rgb(34, 34, 34);
+}
+
+tr.rowa {
+    background-color: rgb(34, 34, 34);
+}
+
+td, th {
+    border: 1px solid rgb(48, 48, 48);
+    padding: 5px;
+    text-align: left;
+}
+
+.colhead {
+    background: rgb(18, 18, 18);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+td.colhead, .colhead td, .colhead th {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.colhead .sign {
+    padding: 0px 8px;
+    font-size: 12pt;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.colhead_dark {
+    background: rgb(18, 18, 18);
+    color: rgb(204, 204, 204);
+    vertical-align: middle;
+}
+
+.colhead_dark a {
+    color: rgb(255, 255, 255);
+}
+
+td.label {
+    font-weight: bold;
+    text-align: right;
+    width: 180px;
+}
+
+table.slice {
+    margin-top: -1px;
+}
+
+.error_message {
+    border: 1px solid rgb(102, 102, 102);
+    padding: 3px 0px;
+    background-color: rgb(175, 37, 37);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.save_message {
+    border: 1px solid rgb(102, 102, 102);
+    padding: 3px 0px;
+    background-color: rgb(244, 230, 73);
+    text-align: center;
+    color: rgb(73, 40, 2);
+    font-weight: bold;
+}
+
+.elem_error {
+    border: 3px solid rgb(176, 13, 13);
+}
+
+.hidden {
+    display: none;
+}
+
+ul.stats li {
+    padding: 0px 0px 1px;
+}
+
+ul.poll li {
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+    clear: left;
+}
+
+ul.poll li.graph {
+    margin-bottom: 3px;
+    padding-left: 20px;
+}
+
+.layout.recent td {
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
+
+table#recent_snatches.layout.recent tbody tr td img {
+    display: block;
+    margin: auto;
+}
+
+table#recent_uploads.layout.recent tbody tr td img {
+    display: block;
+    margin: auto;
+}
+
+.show_torrents {
+    width: 28px;
+    height: 28px;
+    background: url("images/show.png") center center no-repeat;
+}
+
+.hide_torrents {
+    width: 28px;
+    height: 28px;
+    background: url("images/hide.png") center center no-repeat;
+}
+
+.show_torrents_link {
+    border: medium;
+    width: 28px;
+    height: 28px;
+    display: block;
+}
+
+.filter_torrents {
+    width: 750px;
+    margin: auto;
+}
+
+.filter_torrents .submit {
+    text-align: right;
+    padding-top: 5px;
+}
+
+#content form.search_form + .torrent_table {
+    margin-top: 20px;
+}
+
+.cat_list tr td {
+    border: medium;
+}
+
+.torrent_table tr {
+    vertical-align: top;
+}
+
+.colhead .sign, .colhead_dark .sign {
+    padding: 0px 8px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.torrent_table tr.group, tr.group_torrent, tr.torrent {
+    background-color: rgb(34, 34, 34);
+}
+
+.torrent_table div.tags {
+    font-weight: normal;
+}
+
+.torrent_table tr .center {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.group_torrent span {
+    float: right;
+}
+
+.torrent span {
+    font-weight: normal;
+    float: right;
+}
+
+.nobr {
+    white-space: nowrap;
+}
+
+.last_read {
+    width: 15px;
+    height: 15px;
+    background: url("images/go_last_read.png") center center no-repeat;
+    margin-left: 5px;
+}
+
+.last_read a {
+    border: medium;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.last_read a:hover {
+    border: medium;
+}
+
+.unread_locked_sticky, .read_locked_sticky {
+    background: url("images/locked_sticky.png") center center no-repeat;
+}
+
+.read_sticky, .unread_sticky {
+    background: url("images/sticky.png") center center no-repeat;
+}
+
+.unread_locked {
+    background: url("images/locked_unread.png") center center no-repeat;
+}
+
+.read_locked {
+    background: url("images/locked_read.png") center center no-repeat;
+}
+
+.unread {
+    background: url("images/unread.png") center center no-repeat;
+}
+
+.read {
+    background: url("images/read.png") center center no-repeat;
+}
+
+strong.quoteheader {
+    color: rgb(153, 153, 153);
+}
+
+table.forum_post {
+    margin: 10px 0px;
+}
+
+table.forum_post td {
+    border: 1px solid rgb(48, 48, 48);
+}
+
+table.forum_unread {
+    border: 2px solid rgb(204, 204, 204);
+}
+
+td.avatar {
+    width: 150px;
+    padding: 0px;
+}
+
+table.forum_post td.body {
+    max-width: 675px;
+}
+
+tbody {
+    max-width: 690px;
+}
+
+blockquote {
+    margin: 10px;
+    padding: 10px;
+    border: 1px dashed rgb(102, 102, 102);
+}
+
+tr.unreadpm {
+    background-color: rgb(105, 34, 34);
+}
+
+.permission_head {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.permissions {
+    width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.permission_container {
+    float: left;
+    width: 200px;
+    padding: 5px;
+}
+
+.permission_container input {
+    margin: 0px 3px 5px 0px;
+    vertical-align: top;
+}
+
+.permissions_edit {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.permission_edit_container {
+    float: left;
+    width: 300px;
+    padding: 5px;
+}
+
+.permission_edit_container input {
+    margin: 0px 3px 5px 0px;
+    vertical-align: top;
+}
+
+.submit_container {
+    clear: both;
+    text-align: right;
+}
+
+ul .invitetree {
+    margin: 0px 0px 0px 25px;
+}
+
+.invitetree li {
+    list-style: none;
+    margin: 10px 2px;
+}
+
+.user_options .options_list li {
+    margin: 0px;
+}
+
+.left_poll {
+    width: 2px;
+    height: 9px;
+    background: url("images/bar_left.gif") center center no-repeat;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.center_poll {
+    height: 9px;
+    background: url("images/bar.gif") repeat;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.right_poll {
+    width: 2px;
+    height: 9px;
+    background: url("images/bar_right.gif") center center no-repeat;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.curtain {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    opacity: 0.8;
+}
+
+.lightbox {
+    position: fixed;
+    text-align: center;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    padding: 0px;
+    z-index: 1002;
+    overflow: auto;
+}
+
+table#torrent_table.torrent_table {
+    margin: auto;
+}
+
+form tr {
+    background-color: rgb(34, 34, 34);
+}
+
+.center {
+    text-align: center;
+}
+
+.spellcheck {
+    margin: 25px 0px;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+tr.torrent .bookmark > a::before {
+    color: rgb(153, 153, 153);
+}
+
+tr.torrent .bookmark > a::after {
+    color: rgb(153, 153, 153);
+}
+
+.linkbox .brackets::before, .linkbox .brackets::after, .top10_quantity_links .brackets::before, .top10_quantity_links .brackets::after {
+    color: rgb(153, 153, 153);
+}
+
+.field_div {
+    margin-bottom: 10px;
+}
+
+.edit_changelog textarea {
+    width: 600px;
+}
+
+.autocomplete-suggestions {
+    background: rgb(34, 34, 34);
+}
+
