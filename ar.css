@@ -1,0 +1,10 @@
+#logo {
+    width: 396px;
+    height: 90px;
+    background: url('https://i.ibb.co/3fVxNFw/ARBanner.png') no-repeat center center;
+    margin: 5px auto 0px auto;
+}
+
+body { 
+	background-color: #000;
+}
